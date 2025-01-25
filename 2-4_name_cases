@@ -1,0 +1,4 @@
+name = "jose"
+print(name.lower())
+print(f"\n {name.upper()}")
+print(f"\n {name.title()}")
