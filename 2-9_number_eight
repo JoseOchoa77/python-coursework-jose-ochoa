@@ -1,0 +1,12 @@
+#this program utilizes the 4 math operators to come out with a total of 8
+#addition
+print(6+2)
+
+#subtraction
+print(10-2)
+
+#multiplication
+print(4*2)
+
+#division
+print(16/2)
