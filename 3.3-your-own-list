@@ -1,0 +1,7 @@
+vehicles = ['Honda jetski', 'Toyota 4Runner', 'Toyota Tundra', 'Lexus R8']
+message = "I would like to own a "
+
+print(f"{message}{vehicles[0]}")
+print(f"{message}{vehicles[1]}")
+print(f"{message}{vehicles[2]}")
+print(f"{message}{vehicles[3]}")
