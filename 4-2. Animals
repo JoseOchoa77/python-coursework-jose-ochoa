@@ -1,0 +1,5 @@
+animals = ["dog", "cat", "fox"]
+for animal in animals:
+    print(f"A {animal.title()} has four legs.\n")
+
+print("All of these animals have four legs.")
