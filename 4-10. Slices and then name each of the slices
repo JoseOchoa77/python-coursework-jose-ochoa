@@ -1,0 +1,30 @@
+guest = ['Micheal Jordan', 'Shaquille O\'neil', 'Randy Orton']
+invitation = "I would like to invite "
+
+print(f'{invitation}{guest[0]} to dinner.')
+print(f'{invitation}{guest[1]} to dinner.')
+print(f'{invitation}{guest[2]} to dinner.')
+
+print('\nI have found a bigger table!')
+
+guest.insert(0, 'Jesus Christ')
+guest.insert(2, 'Kurt Cobain')
+guest.append('Billy Corgan')
+guest.sort()
+
+print(f'{invitation}{guest[0]} to dinner.')
+print(f'{invitation}{guest[1]} to dinner.')
+print(f'{invitation}{guest[2]} to dinner.')
+print(f'{invitation}{guest[3]} to dinner.')
+print(f'{invitation}{guest[4]} to dinner.')
+print(f'{invitation}{guest[5]} to dinner.')
+
+
+print("\nThe first three items in this list are:")
+print(guest[:3])
+
+print("\nThe three items from the middle are:")
+print(guest[1:4])
+
+print("\nThe three items from the end are:")
+print(guest[3:6])
