@@ -1,0 +1,23 @@
+alien_color_1 = "green"
+if alien_color_1 == "green":
+    print("player earned 5 points.")
+elif alien_color_1 == "yellow":
+    print("player earned 10 points.")
+else:
+    print("player earned 15 points")
+
+alien_color_2 = "yellow"
+if alien_color_2 == "green":
+    print("player earned 5 points.")
+elif alien_color_2 == "yellow":
+    print("\nplayer earned 10 points.")
+else:
+    print("player earned 15 points")
+
+alien_color_3 = "red"
+if alien_color_3 == "green":
+    print("player earned 5 points.")
+elif alien_color_3 == "yellow":
+    print("player earned 10 points.")
+else:
+    print("\nplayer earned 15 points")
