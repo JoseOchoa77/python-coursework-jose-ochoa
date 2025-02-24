@@ -1,0 +1,11 @@
+fav_places = {
+    'jose': ['California', 'North Carolina', 'Las Vegas'], 
+    'Kristina': ['Turkey', 'Minnesota'],
+    'Nick': ['Georgia', 'Germany']
+    }
+
+for person, place in fav_places.items():
+    print(f"\n {person.title()}'s favorite places are:")
+    for places in place:
+        print(f"\t{places.title()}")
+
