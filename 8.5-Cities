@@ -1,0 +1,9 @@
+def describe_city(city_name, country_name= "United States of America"):
+    """Prints city name and the country that it is located in."""
+    print(f"\n{city_name} is located in {country_name}")
+
+describe_city("Asheville")
+
+describe_city("Candler")
+
+describe_city("Beijing", "China")
