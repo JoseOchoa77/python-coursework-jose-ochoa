@@ -1,0 +1,10 @@
+def register_car(make, model, **car_info):
+    """Build a dictionary for car info."""
+    car_info["Make"] = make
+    car_info["model"] = model
+    return car_info
+
+car_info = register_car("Toyota", "Corolla", color = "yellow", trim = "Sport")
+
+print(car_info)
+
