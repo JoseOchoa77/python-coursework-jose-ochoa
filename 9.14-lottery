@@ -1,0 +1,15 @@
+from random import choice
+numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+letters = ["a", "b", "c", "d", "e"]
+
+randnum1 = choice(numbers)
+randnum2 = choice(numbers)
+randnum3 = choice(numbers)
+randnum4 = choice(numbers)
+randnum5 = choice(numbers)
+
+randletter1 = choice(letters)
+randletter2 = choice(letters)
+randletter3 = choice(letters)
+
+print(f"Any ticket matching {randnum1}{randnum2}{randnum3}{randnum4}{randnum5}{randletter1}{randletter2}{randletter3} is the lottery winner!")
