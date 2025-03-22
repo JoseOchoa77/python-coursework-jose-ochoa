@@ -1,0 +1,32 @@
+class User:
+    """Creates user profile."""
+
+    def __init__(self, first_name, last_name, height, hair_color):
+        """Stores user's information."""
+        self.first_name = first_name
+        self.last_name = last_name
+        self.height = height
+        self.hair_color = hair_color
+        self.login_attempts = 0
+
+    def describe_user(self):
+        """Describes user."""
+        print(f"{self.first_name} {self.last_name} is {self.height}ft tall and has {self.hair_color} hair.")
+
+    def increment_login_attempts(self):
+        """Increments login attempt by 1."""
+        self.login_attempts += 1
+
+    def reset_login_attempts(self):
+        """Resets login attempt back to 0."""
+        self.login_attempts = 0
+
+new_user = User("jose", "ochoa", "6", "brown")
+# Should print out as login_attempts = 2
+new_user.increment_login_attempts()
+new_user.increment_login_attempts()
+print(new_user.login_attempts)
+
+# Should reset login_attempts back to 0.
+new_user.reset_login_attempts()
+print(new_user.login_attempts)
