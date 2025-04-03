@@ -1,0 +1,19 @@
+try:
+    num1 = int(input("Type in first value: "))
+except ValueError:
+    print(f"The character you typed is not a number")
+
+try:
+    num2 = int(input("Type in second value: "))
+except ValueError:
+    print(f"The character you typed is not a number")
+
+try:
+    answer = num1 + num2
+except NameError:
+    pass
+
+try:
+    print(f"Those two values added together is: {answer}")
+except NameError:
+    print("you didnt type two int values...")
