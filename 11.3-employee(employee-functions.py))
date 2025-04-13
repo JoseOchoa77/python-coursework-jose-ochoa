@@ -1,0 +1,29 @@
+class Employee:
+    def __init__(self, first_name, last_name, annual_salary=0):
+        """Store employee information."""
+        self.first_name = first_name
+        self.last_name = last_name
+        self.annual_salary = annual_salary
+    
+    def give_raise(self):
+        """Boost employee annual salary by $5000"""
+        self.annual_salary += 5000
+    
+    def give_custom_raise(self, custom_raise=0):
+        """Boost employee annual salary with custom raise."""
+        self.annual_salary += custom_raise
+        
+    
+    def show_information(self):
+        """Shows employee information."""
+        information = print(f"{self.first_name}, {self.last_name}, {self.annual_salary}")
+        return(information)
+
+new_employee = Employee("jose", "ochoa", 21000)
+new_employee.show_information()
+
+new_employee.give_raise()
+new_employee.show_information()
+
+new_employee.give_custom_raise(20)
+new_employee.show_information()
