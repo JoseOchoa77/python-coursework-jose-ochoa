@@ -1,0 +1,13 @@
+from employee_function import Employee
+
+def test_give_default_raise():
+    """Test the give_raise function and ensures annual_salary is increased by $5000."""
+    new_employee = Employee("jose", "ochoa", 20000)
+    new_employee.give_raise()
+    assert new_employee.annual_salary == 25000
+
+def test_give_custom_raise():
+    """Test the give_custom_raise function and ensure annual_salary is increased by custom amount."""
+    new_employee = Employee("jose", "ochoa", 20000)
+    new_employee.give_custom_raise(20)
+    assert new_employee.annual_salary == 20020
